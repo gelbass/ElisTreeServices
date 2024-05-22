@@ -1,0 +1,153 @@
+.container__menu {
+  display: flex;
+  background-color: color(display-p3 0.0864 0.1373 0.0038/0.9);
+  position: fixed;
+  height: 119px;
+  padding: 0px 40px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 950px;
+  flex-shrink: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.container__menu--bar {
+  flex-grow: 0 !important;
+}
+
+.container__menu--items {
+  gap: 40px;
+}
+
+.container__menu--item {
+  color: #FFFFFF !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container__menu--btn {
+  margin-right: 40px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 30px;
+  background-color: #76AB35;
+}
+.container__menu--btn:hover {
+  background-color: #856034;
+}
+
+.imgMenu {
+  position: relative;
+  width: 282.685px;
+  height: 181px;
+  bottom: -50px;
+}
+
+.container__home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/img_ETM_1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #FFFFFF;
+  gap: 40px;
+}
+
+.title--h1 {
+  font-size: 71.341px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title--h2 {
+  font-size: 48.114px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btnEts {
+  display: flex;
+  width: 329px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 30px;
+  background-color: #76AB35;
+}
+.btnEts:hover {
+  background-color: #856034;
+}
+
+.container__services {
+  display: flex;
+  flex-direction: column;
+  width: 1728px;
+  padding: 70px 0px 68.906px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__services--header {
+  color: #76AB35;
+}
+
+.container__services--elements {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header {
+  grid-area: header;
+}
+
+#home {
+  grid-area: home;
+}
+
+#services {
+  grid-area: services;
+}
+
+#testimonials {
+  grid-area: testimonials;
+}
+
+#whyChooseUscontactUs {
+  grid-area: area;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $fuentePrincipal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#menu{
+
+}
+#header{
+    grid-area: header;
+}
+#home{
+    grid-area: home;
+}
+#services{
+    grid-area: services;
+}
+#testimonials{
+    grid-area: testimonials;
+}
+#whyChooseUscontactUs{
+    grid-area: area;
+}
+#footer{
+    grid-area: footer;
+}
