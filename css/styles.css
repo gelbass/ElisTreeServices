@@ -12,6 +12,13 @@
   z-index: 1;
 }
 
+.container__menu--submenu {
+  background-color: color(display-p3 0.0864 0.1373 0.0038/0.9) !important;
+}
+.container__menu--submenu a:hover {
+  background-color: #856034;
+}
+
 .container__menu--bar {
   flex-grow: 0 !important;
 }
@@ -56,7 +63,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url("../img/img_ETM_1.jpeg");
+  background-image: url("../img/Hero_section.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -75,6 +82,20 @@
   font-size: 48.114px;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+}
+
+.title--services {
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 98.3%;
+}
+
+.title--services--span {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
 }
 
@@ -98,12 +119,17 @@
   display: flex;
   flex-direction: column;
   width: 1728px;
-  padding: 70px 0px 68.906px 0px;
+  padding: 0px !important;
   justify-content: center;
   align-items: center;
 }
 
 .container__services--header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0px 68.906px 0px;
   color: #76AB35;
 }
 
@@ -113,7 +139,125 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  color: #FFFFFF;
+}
+
+.container__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.container__whyChooseUs {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   gap: 40px;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.container__testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 40px;
+  background: linear-gradient(180deg, #FAFFF5 0%, #EFFFDA 100%);
+  background: linear-gradient(180deg, color(display-p3 0.984 1 0.9651) 0%, color(display-p3 0.9495 1 0.8673) 100%);
+}
+.container__testimonials h2 {
+  font-size: 71.341px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #76AB35;
+}
+
+.container__cards {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.container__cards--card {
+  display: flex;
+  width: 360px;
+  height: 292px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 30px;
+  background-color: #76AB35;
+  color: #FFFFFF;
+  text-align: center;
+}
+.container__cards--card h4 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container__cards--card p {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container__testimonials--carousel {
+  width: 1017px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+}
+
+.container__testimonials--carousel--text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container__testimonials--carousel--text h5 {
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+.container__testimonials--carousel--text strong {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container__contacUs {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 100vh;
+  background: linear-gradient(180deg, #2B4B00 0%, #64B200 100%);
+  background: linear-gradient(180deg, color(display-p3 0.1961 0.2902 0.0431) 0%, color(display-p3 0.4663 0.6902 0.1026) 100%);
+}
+.container__contacUs h2 {
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
 }
 
 * {
@@ -138,12 +282,57 @@ html {
   grid-area: services;
 }
 
+#treeRemoval {
+  background-image: url("../img/Service_1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#TreePruningCare {
+  background-image: url("../img/Service_2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#landscaping {
+  background-image: url("../img/Service_3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#sodAndMulch {
+  background-image: url("../img/Service_4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#GardeningAndDebrisRemoval {
+  background-image: url("../img/Service_5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#fencingWorkAndMore {
+  background-image: url("../img/Service_6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 #testimonials {
   grid-area: testimonials;
 }
 
 #whyChooseUscontactUs {
   grid-area: area;
+  background-image: url("../img/Bullet_points.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#contactUs {
+  background-image: url("../img/form.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #footer {
