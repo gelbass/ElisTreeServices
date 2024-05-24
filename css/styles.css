@@ -601,6 +601,17 @@ html {
     bottom: 0px;
     margin-left: 40px;
   }
+  .container__menu--bar {
+    background-color: color(display-p3 0.0864 0.1373 0.0038/0.9) !important;
+    padding: 40px;
+  }
+  .container__menu--bar a:hover {
+    background-color: #856034;
+  }
+  .navbar-toggler {
+    color: #76AB35 !important;
+    border-color: #76AB35 !important;
+  }
 }
 @media only screen and (min-width: 350px) and (max-width: 780px) {
   .container__contacUs {
