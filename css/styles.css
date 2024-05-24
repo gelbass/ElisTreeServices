@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .container__menu {
   display: flex;
   background-color: color(display-p3 0.0864 0.1373 0.0038/0.9);
@@ -70,6 +71,7 @@
   height: 100vh;
   color: #FFFFFF;
   gap: 40px;
+  text-align: center;
 }
 
 .title--h1 {
@@ -77,6 +79,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
 }
 
 .title--h2 {
@@ -84,9 +87,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-align: center;
 }
 
 .title--services {
+  text-align: center;
   font-size: 100px;
   font-style: normal;
   font-weight: 400;
@@ -98,6 +103,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
 }
 
 .btnEts {
@@ -123,6 +129,7 @@
   padding: 0px !important;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .container__services--header {
@@ -142,6 +149,7 @@
   align-items: center;
   gap: 20px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .container__text {
@@ -163,6 +171,7 @@
   gap: 40px;
   justify-content: center;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .container__testimonials {
@@ -170,6 +179,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 100vh;
   gap: 40px;
   background: linear-gradient(180deg, #FAFFF5 0%, #EFFFDA 100%);
@@ -187,6 +197,7 @@
   display: flex;
   align-items: center;
   gap: 90px;
+  text-align: center;
 }
 
 .container__cards--card {
@@ -217,12 +228,16 @@
 }
 
 .container__testimonials--carousel {
-  width: 1017px;
+  width: 90%;
   margin: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0px 100px 0px 100px;
+  text-align: center;
+}
+
+.carousel {
+  width: 95%;
 }
 
 .container__testimonials--carousel--text {
@@ -276,6 +291,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   gap: 40px;
   height: 100vh;
   background: linear-gradient(180deg, #2B4B00 0%, #64B200 100%);
@@ -324,6 +340,7 @@
   background-color: rgba(22, 35, 1, 0.8980392157);
   padding: 10px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .container__footer--img {
@@ -415,6 +432,183 @@ html {
 
 #footer {
   grid-area: footer;
+}
+
+/* Dispositivos móviles pequeños (smartphones en orientación vertical) */
+@media only screen and (max-width: 480px) {
+  .container__cards--card {
+    width: 264px;
+    height: 336px;
+    padding: 20px;
+  }
+  .container__cards {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  .container__whyChooseUs {
+    padding: 300px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__contacUs {
+    padding: 300px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__testimonials {
+    padding: 300px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__services {
+    padding: 300px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__home {
+    padding: 300px 0px 150px 0px;
+    height: 100%;
+  }
+  .title--services {
+    font-size: 70px;
+  }
+  .container__text {
+    font-size: 25px;
+  }
+}
+/* Dispositivos móviles grandes (smartphones en orientación horizontal) */
+@media only screen and (min-width: 481px) and (max-width: 850px) {
+  .container__cards--card {
+    width: 264px;
+    height: 336px;
+    padding: 20px;
+  }
+  .container__cards {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  .container__whyChooseUs {
+    padding: 250px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__contacUs {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__testimonials {
+    padding: 250px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__services {
+    padding: 250px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__home {
+    padding: 250px 0px 150px 0px;
+    height: 100%;
+  }
+  .title--services {
+    font-size: 80px;
+  }
+  .container__text {
+    font-size: 30px;
+  }
+}
+/* Tabletas pequeñas */
+@media only screen and (min-width: 851px) and (max-width: 1024px) {
+  .container__cards--card {
+    width: 264px;
+    height: 336px;
+    padding: 20px;
+  }
+  .container__cards {
+    gap: 30px;
+  }
+  .container__whyChooseUs {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__contacUs {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__testimonials {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__services {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__services--elements {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__home {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .title--services {
+    font-size: 90px;
+  }
+  .container__text {
+    font-size: 35px;
+  }
+}
+/* Tabletas grandes y pantallas pequeñas (laptops pequeñas) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container__cards--card {
+    width: 264px;
+    height: 336px;
+    padding: 20px;
+  }
+  .container__cards {
+    gap: 70px;
+  }
+  .container__whyChooseUs {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__contacUs {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__testimonials {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__services {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+  .container__home {
+    padding: 200px 0px 150px 0px;
+    height: 100%;
+  }
+}
+/* Laptops y pantallas medianas */
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  .container__cards--card {
+    width: 264px;
+    height: 336px;
+    padding: 20px;
+  }
+}
+/* Pantallas grandes (desktops) */
+@media only screen and (min-width: 350px) and (max-width: 992px) {
+  .imgMenu {
+    position: relative;
+    width: 176.685px;
+    height: 102px;
+    bottom: 0px;
+    margin-left: 40px;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 780px) {
+  .container__contacUs {
+    flex-direction: column;
+  }
+  .container__form {
+    width: 70%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

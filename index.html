@@ -12,6 +12,7 @@
     rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Elis Tree Services</title>
 </head>
 
@@ -86,7 +87,8 @@
           </svg>
           <h2 class="title--h1"> Main Services</h2>
         </div>
-        <div class="container-fluid container__services--elements" id="treeRemoval">
+        <div class="container-fluid container__services--elements" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" id="treeRemoval">
           <p class="title--services--p">Safe and Precise Tree Removal</p>
           <h2 class="title--services">Tree Removal</h2>
           <div class="container__text">
@@ -203,137 +205,139 @@
     <section id="testimonials">
       <div class="container-fluid container__testimonials">
         <h2>What Our Clients Say</h2>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container__testimonials--carousel">
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
+        <div class="container-fluid">
+          <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container__testimonials--carousel">
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                  </div>
+                  <div class="container__testimonials--carousel--text">
+  
+                    <h5>"Excellent service and very professional staff!"</h5>
+                    <strong>- John Doe</strong>
+                  </div>
                 </div>
-                <div class="container__testimonials--carousel--text">
-
-                  <h5>"Excellent service and very professional staff!"</h5>
-                  <strong>- John Doe</strong>
+              </div>
+              <div class="carousel-item">
+                <div class="container__testimonials--carousel">
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                  </div>
+                  <div class="container__testimonials--carousel--text">
+  
+                    <h5>"Reliable and efficient. Highly recommend!"</h5>
+                    <strong>Jane Smith</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container__testimonials--carousel">
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
+                        fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
+                    </svg>
+                  </div>
+                  <div class="container__testimonials--carousel--text">
+  
+                    <h5>"Great experience from start to finish!"</h5>
+                    <strong>Emily Johnson</strong>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="container__testimonials--carousel">
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                </div>
-                <div class="container__testimonials--carousel--text">
-
-                  <h5>"Reliable and efficient. Highly recommend!"</h5>
-                  <strong>Jane Smith</strong>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container__testimonials--carousel">
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                    <path
-                      d="M12.5001 17.2698L16.6501 19.7798C17.4101 20.2398 18.3401 19.5598 18.1401 18.6998L17.0401 13.9798L20.7101 10.7998C21.3801 10.2198 21.0201 9.11977 20.1401 9.04977L15.3101 8.63977L13.4201 4.17977C13.0801 3.36977 11.9201 3.36977 11.5801 4.17977L9.69007 8.62977L4.86007 9.03977C3.98007 9.10977 3.62007 10.2098 4.29007 10.7898L7.96007 13.9698L6.86007 18.6898C6.66007 19.5498 7.59007 20.2298 8.35007 19.7698L12.5001 17.2698Z"
-                      fill="#FFC700" style="fill:#FFC700;fill:color(display-p3 1.0000 0.7800 0.0000);fill-opacity:1;" />
-                  </svg>
-                </div>
-                <div class="container__testimonials--carousel--text">
-
-                  <h5>"Great experience from start to finish!"</h5>
-                  <strong>Emily Johnson</strong>
-                </div>
-              </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                  <rect width="40" height="40" rx="20" fill="#75AB35" style="fill:#75AB35;fill:color(display-p3 0.4588 0.6706 0.2078);fill-opacity:1;"/>
+                  <path d="M23.3668 12.0335L15.0334 20.3669L23.3668 28.7002" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                  <rect x="40" y="40" width="40" height="40" rx="20" transform="rotate(-180 40 40)" fill="#75AB35" style="fill:#75AB35;fill:color(display-p3 0.4588 0.6706 0.2078);fill-opacity:1;"/>
+                  <path d="M16.6332 27.9665L24.9666 19.6331L16.6332 11.2998" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="visually-hidden"></span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                <rect width="40" height="40" rx="20" fill="#75AB35" style="fill:#75AB35;fill:color(display-p3 0.4588 0.6706 0.2078);fill-opacity:1;"/>
-                <path d="M23.3668 12.0335L15.0334 20.3669L23.3668 28.7002" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </span>
-            <span class="visually-hidden"></span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                <rect x="40" y="40" width="40" height="40" rx="20" transform="rotate(-180 40 40)" fill="#75AB35" style="fill:#75AB35;fill:color(display-p3 0.4588 0.6706 0.2078);fill-opacity:1;"/>
-                <path d="M16.6332 27.9665L24.9666 19.6331L16.6332 11.2998" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </span>
-            <span class="visually-hidden"></span>
-          </button>
         </div>
       </div>
     </section>
@@ -385,6 +389,8 @@
   <script type="text/javascript">
     emailjs.init('cq8RBcup3_7AZUwJo')
   </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="./js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -395,6 +401,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

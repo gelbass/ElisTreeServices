@@ -1,0 +1,204 @@
+
+/* Dispositivos móviles pequeños (smartphones en orientación vertical) */
+@media only screen and (max-width: 480px) {
+    .container__cards--card {
+
+        width: 264px;
+        height: 336px;
+        padding: 20px;
+      
+    }
+    .container__cards{
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+    }
+    .container__whyChooseUs {
+      padding: 300px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__contacUs{
+      padding: 300px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__testimonials{
+      padding: 300px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__services{
+      padding: 300px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__home{
+      padding: 300px 0px 150px 0px;
+      height: 100%;
+    }
+    .title--services{
+      font-size: 70px;
+    }
+    .container__text{
+      font-size: 25px;
+    }
+  }
+  
+  /* Dispositivos móviles grandes (smartphones en orientación horizontal) */
+  @media only screen and (min-width: 481px) and (max-width: 850px) {
+    .container__cards--card {
+
+        width: 264px;
+        height: 336px;
+        padding: 20px;
+      
+    }
+    .container__cards{
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+    }
+    .container__whyChooseUs {
+      padding: 250px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__contacUs{
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__testimonials{
+      padding: 250px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__services{
+      padding: 250px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__home{
+      padding: 250px 0px 150px 0px;
+      height: 100%;
+    }
+
+    .title--services{
+      font-size: 80px;
+    }
+    
+    .container__text{
+      font-size: 30px;
+    }
+ 
+  }
+  
+  /* Tabletas pequeñas */
+  @media only screen and (min-width: 851px) and (max-width: 1024px) {
+    .container__cards--card {
+
+        width: 264px;
+        height: 336px;
+        padding: 20px;
+      
+    }
+    .container__cards{
+      gap: 30px;
+    }
+
+    .container__whyChooseUs {
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__contacUs{
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__testimonials{
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__services{
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__services--elements{
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__home{
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .title--services{
+      font-size: 90px;
+    }
+    .container__text{
+      font-size: 35px;
+    }
+  }
+  
+  /* Tabletas grandes y pantallas pequeñas (laptops pequeñas) */
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .container__cards--card {
+
+        width: 264px;
+        height: 336px;
+        padding: 20px;
+      
+    }
+    .container__cards{
+      gap: 70px;
+    }
+
+    .container__whyChooseUs {
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__contacUs{
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__testimonials{
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__services{
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+    .container__home{
+      padding: 200px 0px 150px 0px;
+      height: 100%;
+    }
+
+  }
+  
+  /* Laptops y pantallas medianas */
+  @media only screen and (min-width: 1201px) and (max-width: 1440px) {
+    .container__cards--card {
+
+      width: 264px;
+      height: 336px;
+      padding: 20px;
+    
+  }
+  }
+  
+  /* Pantallas grandes (desktops) */
+  @media only screen and (min-width: 1441px) {
+
+  }
+  
+  @media only screen and (min-width: 350px) and (max-width: 992px) {
+    .imgMenu {
+      position: relative;
+      width: 176.685px;
+      height: 102px;
+      bottom: 0px; 
+      margin-left: 40px;
+  }
+  
+  }
+
+  @media only screen and (min-width: 350px) and (max-width: 780px) {
+    .container__contacUs{
+      flex-direction: column;
+    }
+    .container__form {
+      width: 70%;
+    }
+  }
