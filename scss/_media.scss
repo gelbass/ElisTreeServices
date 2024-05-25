@@ -2,88 +2,186 @@
 /* Dispositivos móviles pequeños (smartphones en orientación vertical) */
 @media only screen and (max-width: 480px) {
     .container__cards--card {
-
-        width: 264px;
-        height: 336px;
+      width: 200px;
+      height: 280px;
         padding: 20px;
-      
+      h4{
+        font-size: 20px;
+      }
+      p{
+        font-size: 15px;
+      }
     }
     .container__cards{
-      flex-wrap: wrap;
+      flex-direction: column;
       gap: 40px;
       justify-content: center;
     }
     .container__whyChooseUs {
-      padding: 300px 0px 150px 0px;
+      padding: 150px 40px 150px 40px;
       height: 100%;
     }
     .container__contacUs{
-      padding: 300px 0px 150px 0px;
+      padding: 150px 40px 150px 40px;
       height: 100%;
+      h2{
+        font-size: 30px;
+      }
+    }
+    .formulario__div{
+      flex-direction: column;
     }
     .container__testimonials{
-      padding: 300px 0px 150px 0px;
+      padding: 150px 40px 150px 40px;
       height: 100%;
     }
+    .container__testimonials--Title{
+      font-size: 30px;
+    }
+    .carousel--text{
+      font-size: 25px;
+    }
+    .carousel--author{
+      font-size: 15px;
+    }
+    .carousel--starts{
+      width: 10px;
+    }
     .container__services{
-      padding: 300px 0px 150px 0px;
+      padding: 300px 40px 150px 40px;
       height: 100%;
     }
     .container__home{
-      padding: 300px 0px 150px 0px;
+      padding: 300px 40px 150px 40px;
       height: 100%;
     }
-    .title--services{
-      font-size: 70px;
-    }
+    
     .container__text{
-      font-size: 25px;
+      p{
+        margin-bottom: 5px;
+      }
+      font-size: 15px;
+    }
+    .title--h1{
+      font-size: 30px;
+    }
+    .title--h2{
+      font-size: 13px;
+    }
+    .title--services{
+      font-size: 30px;
+    }
+    .title--services--span{
+      font-size: 15px;
+    }
+    .title--services--p{
+      font-size: 12px;
+    }
+    .btnEts{
+      width: 150px;
+    }
+    .hoja{
+      width: 50px;
+    }
+    .container__testimonials--message{
+      gap: 5px;
+      h1{
+        font-size: 17px;
+      }
+      p{
+        font-size: 18px;
+        
+      }
     }
   }
   
   /* Dispositivos móviles grandes (smartphones en orientación horizontal) */
   @media only screen and (min-width: 481px) and (max-width: 850px) {
     .container__cards--card {
-
-        width: 264px;
-        height: 336px;
+ width: 200px;
+      height: 280px;
         padding: 20px;
+      h4{
+        font-size: 20px;
+      }
+      p{
+        font-size: 15px;
+      }
       
     }
     .container__cards{
-      flex-wrap: wrap;
+      flex-direction: column;
       gap: 40px;
       justify-content: center;
     }
     .container__whyChooseUs {
-      padding: 250px 0px 150px 0px;
+      padding: 150px 40px 150px 40px;
       height: 100%;
     }
     .container__contacUs{
-      padding: 200px 0px 150px 0px;
+      padding: 150px 40px 150px 40px;
       height: 100%;
+      h2{
+        font-size: 30px;
+      }
     }
     .container__testimonials{
-      padding: 250px 0px 150px 0px;
+      padding: 200px 40px 150px 40px;
       height: 100%;
     }
     .container__services{
-      padding: 250px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .container__home{
-      padding: 250px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
 
     .title--services{
-      font-size: 80px;
+      font-size: 50px;
     }
     
     .container__text{
       font-size: 30px;
     }
  
+    .title--h1{
+      font-size: 30px;
+    }
+    .title--h2{
+      font-size: 15px;
+    }
+    .title--services--p{
+      font-size: 15px;
+    }
+
+    .formulario__div{
+      flex-direction: column;
+    }
+
+    .carousel--text{
+      font-size: 25px;
+    }
+    .carousel--author{
+      font-size: 15px;
+    }
+    .carousel--starts{
+      width: 10px;
+    }
+    .container__testimonials--Title{
+      font-size: 50px;
+    }
+    .container__testimonials--message{
+      gap: 5px;
+      h1{
+        font-size: 30px;
+      }
+      p{
+        font-size: 32px;
+        
+      }
+    }
   }
   
   /* Tabletas pequeñas */
@@ -100,27 +198,27 @@
     }
 
     .container__whyChooseUs {
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .container__contacUs{
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .container__testimonials{
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .container__services{
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .container__services--elements{
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .container__home{
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .title--services{
@@ -128,6 +226,16 @@
     }
     .container__text{
       font-size: 35px;
+    }
+    .container__testimonials--message{
+      gap: 5px;
+      h1{
+        font-size: 35px;
+      }
+      p{
+        font-size: 40px;
+        
+      }
     }
   }
   
@@ -145,24 +253,35 @@
     }
 
     .container__whyChooseUs {
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .container__contacUs{
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .container__testimonials{
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .container__services{
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
     }
     .container__home{
-      padding: 200px 0px 150px 0px;
+      padding: 250px 40px 150px 40px;
       height: 100%;
+    }
+
+    .container__testimonials--message{
+      gap: 5px;
+      h1{
+        font-size: 45px;
+      }
+      p{
+        font-size: 47px;
+        
+      }
     }
 
   }
@@ -186,8 +305,8 @@
   @media only screen and (min-width: 350px) and (max-width: 992px) {
     .imgMenu {
       position: relative;
-      width: 176.685px;
-      height: 102px;
+      width: 100px;
+      height: 60px;
       bottom: 0px; 
       margin-left: 40px;
   }
