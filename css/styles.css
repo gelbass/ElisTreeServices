@@ -106,6 +106,10 @@
   text-align: center;
 }
 
+.title--services--p {
+  margin: 0px !important;
+}
+
 .btnEts {
   display: flex;
   width: 329px;
@@ -515,11 +519,11 @@ html {
     width: 10px;
   }
   .container__services {
-    padding: 300px 40px 150px 40px;
+    padding: 150px 40px 150px 40px;
     height: 100%;
   }
   .container__home {
-    padding: 300px 40px 150px 40px;
+    padding: 150px 40px 150px 40px;
     height: 100%;
   }
   .container__text {
@@ -535,13 +539,13 @@ html {
     font-size: 13px;
   }
   .title--services {
-    font-size: 30px;
+    font-size: 40px;
   }
   .title--services--span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .title--services--p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .btnEts {
     width: 150px;
@@ -550,10 +554,10 @@ html {
     width: 50px;
   }
   .container__testimonials--message {
-    gap: 5px;
+    gap: 10px;
   }
   .container__testimonials--message h1 {
-    font-size: 17px;
+    font-size: 30px;
   }
   .container__testimonials--message p {
     font-size: 18px;
@@ -631,10 +635,10 @@ html {
     font-size: 50px;
   }
   .container__testimonials--message {
-    gap: 5px;
+    gap: 10px;
   }
   .container__testimonials--message h1 {
-    font-size: 30px;
+    font-size: 50px;
   }
   .container__testimonials--message p {
     font-size: 32px;
@@ -742,10 +746,10 @@ html {
 @media only screen and (min-width: 350px) and (max-width: 992px) {
   .imgMenu {
     position: relative;
-    width: 100px;
-    height: 60px;
+    width: 120px;
+    height: 70px;
     bottom: 0px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .container__menu--bar {
     background-color: color(display-p3 0.0864 0.1373 0.0038/0.9) !important;
@@ -755,8 +759,10 @@ html {
     background-color: #856034;
   }
   .navbar-toggler {
-    color: #76AB35 !important;
-    border-color: #76AB35 !important;
+    border: none !important;
+  }
+  .navbar-toggler p {
+    margin: 0px !important;
   }
 }
 @media only screen and (min-width: 350px) and (max-width: 780px) {
@@ -765,6 +771,9 @@ html {
   }
   .container__form {
     width: 70%;
+  }
+  .container__services--header {
+    padding: 20px 0px 20px 0px;
   }
 }
 
