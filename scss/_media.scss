@@ -1,4 +1,10 @@
 
+@media only screen and (max-width: 380px) {
+  main{
+    display: none;
+  }
+  
+}
 /* Dispositivos móviles pequeños (smartphones en orientación vertical) */
 @media only screen and (max-width: 480px) {
     .container__cards--card {
@@ -93,12 +99,21 @@
         
       }
     }
+    .socialMedia{
+      h4{
+        font-size: 15px;
+      }
+      svg{
+        width: 23px;
+        height: 22px;
+      }
+    }
   }
   
   /* Dispositivos móviles grandes (smartphones en orientación horizontal) */
   @media only screen and (min-width: 481px) and (max-width: 850px) {
     .container__cards--card {
- width: 200px;
+      width: 200px;
       height: 280px;
         padding: 20px;
       h4{
@@ -133,6 +148,10 @@
       padding: 250px 40px 150px 40px;
       height: 100%;
     }
+
+    .title--services--containerLi{
+      gap: 40px;
+    }
     .container__home{
       padding: 250px 40px 150px 40px;
       height: 100%;
@@ -143,7 +162,7 @@
     }
     
     .container__text{
-      font-size: 30px;
+      font-size: 18px;
     }
  
     .title--h1{
@@ -180,6 +199,16 @@
       p{
         font-size: 32px;
         
+      }
+    }
+    
+    .socialMedia{
+      h4{
+        font-size: 15px;
+      }
+      svg{
+        width: 23px;
+        height: 22px;
       }
     }
   }
@@ -222,10 +251,10 @@
       height: 100%;
     }
     .title--services{
-      font-size: 90px;
+      font-size: 80px;
     }
     .container__text{
-      font-size: 35px;
+      font-size: 20px;
     }
     .container__testimonials--message{
       gap: 5px;
@@ -235,6 +264,15 @@
       p{
         font-size: 40px;
         
+      }
+    }
+    .socialMedia{
+      h4{
+        font-size: 15px;
+      }
+      svg{
+        width: 23px;
+        height: 22px;
       }
     }
   }
@@ -325,6 +363,10 @@
     p{
       margin: 0px !important;
     }
+  }
+  .container__footer--socialMedia{
+    flex-wrap: wrap;
+     justify-content: center;
   }
   }
 

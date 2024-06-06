@@ -18,22 +18,28 @@ html {
     grid-area: services;
 }
 #treeRemoval{
-    @include container_img--services("../img/Service_1.jpg");
+    @include container_img--services("../img/TreeRemoval.jpg");
+}
+#treeCablingBrancing{
+    @include container_img--services("../img/TreeCablingBracing.jpg");
 }
 #TreePruningCare{
-    @include container_img--services("../img/Service_2.jpg");
+    @include container_img--services("../img/TreePruningandCare.jpg");
+}
+#treePlanting{
+    @include container_img--services("../img/TreePlanting.jpg");
 }
 #landscaping{
-    @include container_img--services("../img/Service_3.jpg");
+    @include container_img--services("../img/Landscaping.jpg");
 }
 #sodAndMulch{
-    @include container_img--services("../img/Service_4.jpg");
+    @include container_img--services("../img/SodandMulch.jpg");
 }
-#GardeningAndDebrisRemoval{
-    @include container_img--services("../img/Service_5.jpg");
+#GardeningDesing{
+    @include container_img--services("../img/GardeningDesign.jpg");
 }
 #fencingWorkAndMore{
-    @include container_img--services("../img/Service_6.jpg");
+    @include container_img--services("../img/FencingWorkAndMore.jpg");
 }
 #testimonials{
     grid-area: testimonials;

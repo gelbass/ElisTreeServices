@@ -13,13 +13,6 @@
   z-index: 1;
 }
 
-.container__menu--submenu {
-  background-color: color(display-p3 0.0864 0.1373 0.0038/0.9) !important;
-}
-.container__menu--submenu a:hover {
-  background-color: #856034;
-}
-
 .container__menu--bar {
   flex-grow: 0 !important;
 }
@@ -65,13 +58,49 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url("../img/Hero_section.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
   color: #FFFFFF;
   gap: 40px;
   text-align: center;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+
+.opacidad {
+  position: absolute;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container__menu--submenu {
+  background-color: color(display-p3 0.0864 0.1373 0.0038/0.9) !important;
+}
+.container__menu--submenu a:hover {
+  background-color: #856034;
 }
 
 .title--h1 {
@@ -146,6 +175,7 @@
 }
 
 .container__services--elements {
+  padding: 10% 0px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -160,10 +190,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 45px;
+  font-size: 25px;
   font-style: normal;
   font-weight: lighter;
   line-height: 100%;
+  padding: 0px 60px;
+}
+
+.title--services--containerLi {
+  display: flex;
+  text-align: left;
+  gap: 60px;
+}
+.title--services--containerLi li {
+  padding: 10px;
 }
 
 .container__whyChooseUs {
@@ -377,6 +417,8 @@
   padding: 10px;
   color: #FFFFFF;
   text-align: center;
+  gap: 30px;
+  padding-top: 30px;
 }
 
 .container__footer--img {
@@ -389,6 +431,41 @@
   flex-direction: column;
   align-items: center;
   padding: 10px;
+  color: #76AB35;
+}
+.container__footer--p p {
+  margin: 0px;
+}
+
+.container__footer--socialMedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 21px;
+}
+
+.socialMedia {
+  color: #FFFFFF;
+  text-align: center;
+  display: contents;
+}
+.socialMedia h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin: 0px;
+}
+.socialMedia div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.socialMedia:hover {
+  color: #76AB35;
+}
+.socialMedia:hover svg {
+  fill: #76AB35;
 }
 
 .scroll-down {
@@ -436,37 +513,49 @@ html {
 }
 
 #treeRemoval {
-  background-image: url("../img/Service_1.jpg");
+  background-image: url("../img/TreeRemoval.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#treeCablingBrancing {
+  background-image: url("../img/TreeCablingBracing.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #TreePruningCare {
-  background-image: url("../img/Service_2.jpg");
+  background-image: url("../img/TreePruningandCare.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#treePlanting {
+  background-image: url("../img/TreePlanting.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #landscaping {
-  background-image: url("../img/Service_3.jpg");
+  background-image: url("../img/Landscaping.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #sodAndMulch {
-  background-image: url("../img/Service_4.jpg");
+  background-image: url("../img/SodandMulch.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#GardeningAndDebrisRemoval {
-  background-image: url("../img/Service_5.jpg");
+#GardeningDesing {
+  background-image: url("../img/GardeningDesign.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #fencingWorkAndMore {
-  background-image: url("../img/Service_6.jpg");
+  background-image: url("../img/FencingWorkAndMore.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -492,6 +581,11 @@ html {
   grid-area: footer;
 }
 
+@media only screen and (max-width: 380px) {
+  main {
+    display: none;
+  }
+}
 /* Dispositivos móviles pequeños (smartphones en orientación vertical) */
 @media only screen and (max-width: 480px) {
   .container__cards--card {
@@ -584,6 +678,13 @@ html {
   .container__testimonials--message p {
     font-size: 18px;
   }
+  .socialMedia h4 {
+    font-size: 15px;
+  }
+  .socialMedia svg {
+    width: 23px;
+    height: 22px;
+  }
 }
 /* Dispositivos móviles grandes (smartphones en orientación horizontal) */
 @media only screen and (min-width: 481px) and (max-width: 850px) {
@@ -622,6 +723,9 @@ html {
     padding: 250px 40px 150px 40px;
     height: 100%;
   }
+  .title--services--containerLi {
+    gap: 40px;
+  }
   .container__home {
     padding: 250px 40px 150px 40px;
     height: 100%;
@@ -630,7 +734,7 @@ html {
     font-size: 50px;
   }
   .container__text {
-    font-size: 30px;
+    font-size: 18px;
   }
   .title--h1 {
     font-size: 60px;
@@ -664,6 +768,13 @@ html {
   }
   .container__testimonials--message p {
     font-size: 32px;
+  }
+  .socialMedia h4 {
+    font-size: 15px;
+  }
+  .socialMedia svg {
+    width: 23px;
+    height: 22px;
   }
 }
 /* Tabletas pequeñas */
@@ -701,10 +812,10 @@ html {
     height: 100%;
   }
   .title--services {
-    font-size: 90px;
+    font-size: 80px;
   }
   .container__text {
-    font-size: 35px;
+    font-size: 20px;
   }
   .container__testimonials--message {
     gap: 5px;
@@ -714,6 +825,13 @@ html {
   }
   .container__testimonials--message p {
     font-size: 40px;
+  }
+  .socialMedia h4 {
+    font-size: 15px;
+  }
+  .socialMedia svg {
+    width: 23px;
+    height: 22px;
   }
 }
 /* Tabletas grandes y pantallas pequeñas (laptops pequeñas) */
@@ -785,6 +903,10 @@ html {
   }
   .navbar-toggler p {
     margin: 0px !important;
+  }
+  .container__footer--socialMedia {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media only screen and (min-width: 350px) and (max-width: 780px) {

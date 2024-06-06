@@ -11,14 +11,7 @@
   width: 100%;
   z-index: 1;
 }
-.container__menu--submenu{
-  background-color: $colorMenu !important;
-  a{
-    &:hover{
-      background-color: $colorBg;
-    }
-  }
-}
+
 
 .container__menu--bar {
   flex-grow: 0 !important;
@@ -63,13 +56,50 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url("../img/Hero_section.jpg");
+  //background-image: url("../img/Hero_section.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
   color: $color4;
   gap: 40px;
   text-align: center;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.opacidad {
+  position: absolute;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.container__menu--submenu{
+  background-color: $colorMenu !important;
+  a{
+    &:hover{
+      background-color: $colorBg;
+    }
+  }
 }
 
 .title--h1 {
@@ -142,6 +172,7 @@ text-align: center;
 }
 
 .container__services--elements {
+  padding: 10% 0px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -156,10 +187,19 @@ text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 45px;
+  font-size: 25px;
   font-style: normal;
   font-weight: lighter;
   line-height: 100%;
+  padding: 0px 60px;
+}
+.title--services--containerLi{
+  display: flex;
+  text-align: left;
+  gap: 60px;
+  li{
+    padding: 10px;
+  }
 }
 
 .container__whyChooseUs{
@@ -367,6 +407,8 @@ background: linear-gradient(180deg, color(display-p3 0.1961 0.2902 0.0431) 0%, c
   padding: 10px;
   color: $color4;
   text-align: center;
+  gap: 30px;
+  padding-top: 30px;
 }
 
 .container__footer--img{
@@ -378,6 +420,41 @@ background: linear-gradient(180deg, color(display-p3 0.1961 0.2902 0.0431) 0%, c
   flex-direction: column;
   align-items: center;
   padding: 10px;
+  color: $color3;
+  p{
+    margin: 0px;
+  }
+}
+.container__footer--socialMedia{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 21px;
+}
+.socialMedia{
+  color: $color4;
+  text-align: center;
+  display: contents;
+  h4{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 0px;
+  }
+  div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+  }
+  &:hover {
+    color: $color3;
+    svg{
+      fill: $color3;
+    }
+
+  }
 }
 .scroll-down {
   position: fixed;
@@ -400,3 +477,4 @@ background: linear-gradient(180deg, color(display-p3 0.1961 0.2902 0.0431) 0%, c
     transform: translateX(-50%) translateY(-5px);
   }
 }
+
