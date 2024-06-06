@@ -447,7 +447,10 @@
 .socialMedia {
   color: #FFFFFF;
   text-align: center;
-  display: contents;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  text-decoration: none;
 }
 .socialMedia h4 {
   font-size: 20px;
@@ -463,6 +466,7 @@
 }
 .socialMedia:hover {
   color: #76AB35;
+  text-decoration: none;
 }
 .socialMedia:hover svg {
   fill: #76AB35;
@@ -647,6 +651,13 @@ html {
   }
   .container__text p {
     margin-bottom: 5px;
+  }
+  .title--services--containerLi {
+    gap: 25px;
+  }
+  .title--services--containerLi li {
+    padding: 8px;
+    width: 112px;
   }
   .title--h1 {
     font-size: 30px;
