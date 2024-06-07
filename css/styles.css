@@ -592,6 +592,9 @@ html {
 }
 /* Dispositivos móviles pequeños (smartphones en orientación vertical) */
 @media only screen and (max-width: 480px) {
+  .video-background video {
+    left: 85%;
+  }
   .container__cards--card {
     width: 200px;
     height: 280px;
@@ -699,6 +702,9 @@ html {
 }
 /* Dispositivos móviles grandes (smartphones en orientación horizontal) */
 @media only screen and (min-width: 481px) and (max-width: 850px) {
+  .video-background video {
+    left: 65%;
+  }
   .container__cards--card {
     width: 200px;
     height: 280px;
