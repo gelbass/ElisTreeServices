@@ -3,7 +3,7 @@ const btn = document.getElementById("sendEmail");
 document.getElementById("formContact").addEventListener("submit", function(event) {
   event.preventDefault();
 
-  const serviceID = "service_b0oi8x9";
+  const serviceID = "service_0k4vjla";
   const templateID = "template_5sj22co";
 
   emailjs.sendForm(serviceID, templateID, this).then(
