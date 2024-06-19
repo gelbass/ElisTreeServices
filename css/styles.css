@@ -78,7 +78,7 @@
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  width: 135%;
+  width: 150%;
   height: auto;
   z-index: -1;
   transform: translate(-50%, -50%);
@@ -705,7 +705,7 @@ html {
 /* Dispositivos móviles grandes (smartphones en orientación horizontal) */
 @media only screen and (min-width: 481px) and (max-width: 850px) {
   .video-background video {
-    width: 240%;
+    width: 270%;
   }
   .container__cards--card {
     width: 200px;
